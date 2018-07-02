@@ -1,0 +1,3 @@
+/home/davidvelascogarcia/Proyectos/YARP_Streaming_Video/YARP_Streaming_Video_Receptor/build/CMakeFiles/rebuild_cache.dir
+/home/davidvelascogarcia/Proyectos/YARP_Streaming_Video/YARP_Streaming_Video_Receptor/build/CMakeFiles/edit_cache.dir
+/home/davidvelascogarcia/Proyectos/YARP_Streaming_Video/YARP_Streaming_Video_Receptor/build/CMakeFiles/receptor_video.dir

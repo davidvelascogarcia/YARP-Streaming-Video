@@ -1,0 +1,9 @@
+
+<!--- Módulo de recepción de vídeo con reconocimiento de personas -->
+
+    <module>
+        <name>receptor_video</name>
+	<workdir>/home/davidvelascogarcia/Proyectos/YARP_Streaming_Video/YARP_Streaming_Video_Receptor/build</workdir> 
+        <node>localhost</node>
+    </module>
+
