@@ -10,7 +10,7 @@
 
     <module>
         <name>receptor_video</name>
-	<workdir>/home/davidvelascogarcia/Proyectos/YARP_Streaming_Video/YARP_Streaming_Video_Receptor/build</workdir> 
+	<workdir>./YARP_Streaming_Video_Receptor/build</workdir> 
         <node>localhost</node>
     </module>
 
@@ -22,3 +22,6 @@
     </module>
 
 </application>
+
+
+
