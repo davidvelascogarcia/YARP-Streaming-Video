@@ -1,0 +1,15 @@
+﻿  YARP_Streaming_Video_Receptor.cpp
+c:\program files\robotology\yarp-2.3.72\include\yarp\os\connectionwriter.h(183): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+c:\program files\robotology\yarp-2.3.72\include\yarp\sig\image.h(356): warning C4251: 'yarp::sig::Image::pixelCode2Size': class 'std::map<YarpVocabPixelTypesEnum,unsigned int,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'yarp::sig::Image'
+          with
+          [
+              _Kty=YarpVocabPixelTypesEnum,
+              _Ty=unsigned int
+          ]
+  c:\program files\robotology\yarp-2.3.72\include\yarp\sig\image.h(356): note: vea la declaración de 'std::map<YarpVocabPixelTypesEnum,unsigned int,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=YarpVocabPixelTypesEnum,
+              _Ty=unsigned int
+          ]
+  YARP_Streaming_Video_Receptor.vcxproj -> E:\Proyectos\Windows\YARP_Streaming_Video_Receptor\YARP_Streaming_Video_Receptor\x64\Debug\YARP_Streaming_Video_Receptor.exe

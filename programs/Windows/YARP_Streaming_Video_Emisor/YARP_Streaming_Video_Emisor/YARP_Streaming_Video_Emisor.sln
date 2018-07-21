@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "YARP_Streaming_Video_Emisor", "YARP_Streaming_Video_Emisor\YARP_Streaming_Video_Emisor.vcxproj", "{82416398-3E31-45B4-915D-CD8DA47FABCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82416398-3E31-45B4-915D-CD8DA47FABCD}.Debug|x64.ActiveCfg = Debug|x64
+		{82416398-3E31-45B4-915D-CD8DA47FABCD}.Debug|x64.Build.0 = Debug|x64
+		{82416398-3E31-45B4-915D-CD8DA47FABCD}.Debug|x86.ActiveCfg = Debug|Win32
+		{82416398-3E31-45B4-915D-CD8DA47FABCD}.Debug|x86.Build.0 = Debug|Win32
+		{82416398-3E31-45B4-915D-CD8DA47FABCD}.Release|x64.ActiveCfg = Release|x64
+		{82416398-3E31-45B4-915D-CD8DA47FABCD}.Release|x64.Build.0 = Release|x64
+		{82416398-3E31-45B4-915D-CD8DA47FABCD}.Release|x86.ActiveCfg = Release|Win32
+		{82416398-3E31-45B4-915D-CD8DA47FABCD}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0232B27A-63AF-4782-9D56-312AD642C4C1}
+	EndGlobalSection
+EndGlobal
