@@ -54,6 +54,7 @@ install:
 
 before_script:
   - cd programs
+  - cd linux
   - cd YARP_Streaming_Video_Emisor
   - mkdir build
   - cd build
