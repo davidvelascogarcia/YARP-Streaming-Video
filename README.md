@@ -1,5 +1,5 @@
 # YARP: Streaming Video
-[![Build Status](https://travis-ci.org/davidvelascogarcia/YARP-Streaming-Video.svg?branch=master)](https://travis-ci.org/davidvelascogarcia/YARP-Streaming-Video)
+[![Build Status](https://travis-ci.org/davidvelascogarcia/YARP-Streaming-Video.svg?branch=develop)](https://travis-ci.org/davidvelascogarcia/YARP-Streaming-Video)
 
 - [Introducción](#introducción)
 - [Enlaces de interés](#enlaces-de-interés)
