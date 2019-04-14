@@ -39,7 +39,7 @@ int main()
     cout<<"Iniciando cliente..."<<endl;
     cout<<"Abriendo puerto de envío con nombre /emisor_video"<<endl;
     puerto_envio.open("/emisor_video");
-    Network::connect("/emisor_video","/receptor_video");
+//    Network::connect("/emisor_video","/receptor_video");
     cout<<"Enviando fuentes de imágen.."<<endl;
     VideoCapture cap;
 
