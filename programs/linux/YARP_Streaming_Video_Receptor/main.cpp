@@ -39,7 +39,7 @@ int main()
     cout<<"Iniciando red de YARP"<<endl;
     BufferedPort<ImageOf<PixelRgb> > port;
     port.open("/receptor_video");
-    cout<<"Esperando fuentes de imagen..."<<endl;	
+    cout<<"Esperando fuentes de imagen..."<<endl;
 
     while (true) {
 
@@ -50,7 +50,7 @@ int main()
        equalizeHist(gray, dest);
        CascadeClassifier detector;
 
-	if(!detector.load("haarcascade_frontalface_alt.xml")) 
+	if(!detector.load("haarcascade_frontalface_alt.xml"))
 		cout << "No se puede abrir clasificador." << endl;
 
 	vector<Rect> rect;
@@ -62,9 +62,9 @@ int main()
 	rectangle(in_cv,Point(rect[i].x, rect[i].y),Point(rect[i].x + rect[i].width, rect[i].y + rect[i].height),CV_RGB(0,255,0), 2);
 	}
 
+       cvtColor(in_cv, in_cv, CV_RGB2BGR);
        imshow("imagen",in_cv);
        if(waitKey(1) >= 0) break;
    }
     return 0;
 }
-
