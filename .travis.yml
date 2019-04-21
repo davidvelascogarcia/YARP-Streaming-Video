@@ -55,7 +55,8 @@ install:
 before_script:
   - cd programs
   - cd linux
-  - cd YARP_Streaming_Video_Emisor
+  - cd yarpStreamingVideo
+  - cd sender
   - mkdir build
   - cd build
   - cmake ..
@@ -69,7 +70,6 @@ script:
 
 after_success:
   - sudo make install
-#  - ./emisor_video
   - sudo make uninstall
 
 # Notificaciones por correo

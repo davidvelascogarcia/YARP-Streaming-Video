@@ -1,0 +1,9 @@
+
+<!--- Módulo de recepción de vídeo con reconocimiento de personas -->
+
+    <module>
+        <name>yarpStreamingVideoREciever</name>
+	<workdir>./../programs/linux/yarpStreamingVideo/reciever/build</workdir> 
+        <node>localhost</node>
+    </module>
+
