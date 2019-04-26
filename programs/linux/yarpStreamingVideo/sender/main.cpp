@@ -38,8 +38,8 @@ int main()
     Port puerto_envio;  	
     cout<<"Iniciando cliente..."<<endl;
     cout<<"Abriendo puerto de envío con nombre /yarpStreamingVideo/img:o"<<endl;
-    puerto_envio.open("/emisor_video");
-//    Network::connect("/yarpStreamingVideoSender/img:o","/yarpStreamingVideoSender/img:i");
+    puerto_envio.open("/yarpStreamingVideoSender");
+    //    Network::connect("/yarpStreamingVideoSender/img:o","/yarpStreamingVideoSender/img:i","mjpeg",true);
     cout<<"Enviando fuentes de imágen.."<<endl;
     VideoCapture cap;
     Mat imagen;
