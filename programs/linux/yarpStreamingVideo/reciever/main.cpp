@@ -50,7 +50,7 @@ int main()
        equalizeHist(gray, dest);
        CascadeClassifier detector;
 
-	if(!detector.load("haarcascade_frontalface_alt.xml"))
+	if(!detector.load("./../resources/haarcascade_frontalface_alt.xml"))
 		cout << "No se puede abrir clasificador." << endl;
 
 	vector<Rect> rect;
