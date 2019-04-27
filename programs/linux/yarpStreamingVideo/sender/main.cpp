@@ -48,6 +48,7 @@ int main()
 	while(true)
 	{	
 		cap >> imagen;
+		cvtColor(imagen, imagen, cv::COLOR_BGR2RGB);
 		ImageOf<PixelBgr> B; 
    		B.setExternal(imagen.data,imagen.size[1],imagen.size[0]);
    		puerto_envio.write(B); 
